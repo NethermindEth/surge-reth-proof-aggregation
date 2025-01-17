@@ -232,7 +232,8 @@ where
             // Set taiko specific data
             evm.tx_mut().taiko.is_anchor = is_anchor;
             // set the treasury address
-            evm.tx_mut().taiko.treasury = taiko_data.clone().unwrap().l2_contract;
+            // TODO make it configurable
+            evm.tx_mut().taiko.treasury = Address::ZERO;
             evm.tx_mut().taiko.basefee_ratio = taiko_data.clone().unwrap().base_fee_config.sharing_pctg;
 
             // Execute transaction.
