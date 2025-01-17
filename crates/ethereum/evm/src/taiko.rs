@@ -18,7 +18,7 @@ pub struct ProtocolBaseFeeConfig {
     /// BaseFeeConfig::minGasExcess
     pub min_gas_excess: u64,
     /// BaseFeeConfig::maxGasIssuancePerBlock
-    pub max_gas_issuance_per_block: u32,
+    pub max_gas_issuance_per_block: u64,
 }
 
 /// Data required to validate a Taiko Block
