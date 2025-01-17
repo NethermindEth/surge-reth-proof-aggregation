@@ -109,7 +109,7 @@ sol! {
         /// minGasExcess for eip1559
         uint64 minGasExcess;
         /// maxGasIssuancePerBlock for eip1559
-        uint32 maxGasIssuancePerBlock;
+        uint64 maxGasIssuancePerBlock;
     }
 
     function anchorV2(
