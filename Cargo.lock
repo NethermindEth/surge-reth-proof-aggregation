@@ -7047,6 +7047,7 @@ dependencies = [
  "revm-primitives 4.0.0 (git+https://github.com/taikoxyz/revm.git?branch=v36-taiko)",
  "secp256k1",
  "serde_json",
+ "tracing",
 ]
 
 [[package]]
